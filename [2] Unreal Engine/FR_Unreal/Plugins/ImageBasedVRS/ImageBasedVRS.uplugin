@@ -1,0 +1,17 @@
+{
+  "FileVersion": 3,
+  "VersionName": "1.0.0",
+  "FriendlyName": "ImageBasedVRS",
+  "Description": "Runtime plugin for image-based VRS.",
+  "Category": "Rendering",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [
+    {
+      "Name": "ImageBasedVRS",
+      "Type": "Runtime",
+      "LoadingPhase": "PostConfigInit",
+      "PlatformAllowList": [ "Win64" ]
+    }
+  ]
+}

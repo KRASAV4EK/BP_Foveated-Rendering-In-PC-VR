@@ -1,0 +1,69 @@
+# --- Core build artifacts (project + plugins) ---
+**/Binaries/
+**/Build/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/DerivedDataCacheBoot/
+
+Engine/
+
+# --- IDE / project files ---
+.vsconfig
+.vs/
+.vscode/
+*.code-workspace
+.idea/
+*.sln
+*.vcxproj*
+*.opensln
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+
+# CLion / CMake (useful when generating CMake for JetBrains/CLion)
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+CMakePresets.json
+compile_commands.json
+*.cmake
+
+# --- Compiler & tool byproducts ---
+*.log
+*.tmp
+*.cache
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ipch
+*.tlog
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.suo
+*.user
+*.dmp
+*.trace
+
+# --- Packaged builds / staging output ---
+**/WindowsNoEditor/
+**/LinuxNoEditor/
+**/MacNoEditor/
+
+# --- Plugins: ignore only build artefacts; keep sources & .uplugin ---
+**/Plugins/*/Binaries/
+**/Plugins/*/Intermediate/
+
+# --- OS noise ---
+**/.DS_Store
+**/Thumbs.db
+
+# --- SECURITY (optional but recommended) ---
+*.keystore
+*.jks
+
